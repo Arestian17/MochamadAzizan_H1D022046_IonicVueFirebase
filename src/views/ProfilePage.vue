@@ -42,8 +42,8 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonInput, IonItem, IonList, IonLabel, IonIcon, IonButton, IonAvatar } from '@ionic/vue';
 import { exit } from 'ionicons/icons';
 import { computed, ref } from 'vue';
-import TabsMenu from '@/components/TabsMenu.vue';
 import { useAuthStore } from '@/stores/auth';
+
 
 const authStore = useAuthStore();
 const user = computed(() => authStore.user);
